@@ -1,0 +1,43 @@
+.card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  .centered-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.coin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  text-align: center;
+}
+.item-container {
+ 
+  display: flex;
+  flex-direction: column;
+}
+
+.item-container > div {
+  margin-bottom: 10px;
+}
+
+.bottom-line {
+  border-bottom: 2px solid black;
+  margin: 10;
+}
